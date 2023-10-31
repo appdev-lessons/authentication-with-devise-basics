@@ -40,9 +40,13 @@ Recall `rails g` is shorthand for `rails generate`.
 rails g devise user username:string avatar_url:string
 ```
 
-Examine the generated migration file and make any desired changes (i.e., default values, uniqueness constraints, indexes)
+Examine the generated migration file and make any desired changes (i.e., default values). Now,
 
-`rake db:migrate` and restart your server.
+```
+rake db:migrate
+```
+
+and restart your server.
 
 ## Benefits
 
