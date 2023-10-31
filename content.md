@@ -264,4 +264,6 @@ You need to add the name of each column you want to be able to modify to the res
 - `app/views/devise/registrations/new.html.erb`
 - `app/views/devise/registrations/edit.html.erb`
 
+Then add to the `configure_permitted_parameters` method in `ApplicationController`.
+
 ---
