@@ -56,13 +56,14 @@ The big benefits that we now get for free from Devise are:
 
 RCAVs that handle sign up, sign in, and sign out -- all done, for free!
   
-- Visit `/rails/info` and search for "user" to see the routes that were automatically written. It's up to use to link to these routes in our UI wherever we think it appropriate; e.g. in the navbar.
+Visit `/rails/info` and search for "user" to see the routes that were automatically written. It's up to use to link to these routes in our UI wherever we think it appropriate; e.g. in the navbar.
 
-- The most commonly used routes are:
-  - `GET /users/sign_up`
-  - `GET /users/sign_in`
-  - `GET /users/sign_out`
-  - `GET /users/edit`
+The only routes you need to know for now are:
+
+- `GET /users/sign_up`
+- `GET /users/sign_in`
+- `GET /users/sign_out`
+- `GET /users/edit`
 
 <aside markdown="1">
 
