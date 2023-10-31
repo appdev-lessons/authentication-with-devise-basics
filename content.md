@@ -186,7 +186,7 @@ Peruse the [Bootstrap conventions for form markup](https://getbootstrap.com/docs
 
 #### Add CSS Classes To The Helpers
 
-You can also add CSS classes to the input tags they generate, like so:
+You can also add CSS classes to the input tags, like so:
 
 ```erb{6}
   <div class="form-inputs">
