@@ -107,6 +107,14 @@ class ApplicationController < ActionController::Base
 end
 ```
 
+If you want to skip this action on any of your controller actions that are inheriting from `ApplicationController`, you can add this to that specific controller and action (the `:only =>` specifies the action that will be skipped):
+
+```ruby
+class UsersController < ApplicationController
+  skip_before_action(:authenticate_user!, { :only => [:index] })
+  # ...
+```
+
 There are lots more (password reset emails, etc), but these are the first ones that we care about.
 
 ## Customizing Devise Views
