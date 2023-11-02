@@ -206,7 +206,7 @@ Peruse the [Bootstrap conventions for form markup](https://getbootstrap.com/docs
 
 You can also add CSS classes to the input tags, like so:
 
-```erb{1:(74-90)}
+```erb{1:(67-90)}
 <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "my-custom-class" %>
 ```
 
